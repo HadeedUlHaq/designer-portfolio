@@ -6,7 +6,7 @@
           <div>
             <img
               class="w-10 h-10 md:w-12 md:h-12 rounded-full border-2 border-primary"
-              src="./assets/Hadeed Ul Haq.png"
+              src="./assets/Hadeed-Ul-Haq.png"
               alt="Hadeed Ul Haq"
             />
           </div>
