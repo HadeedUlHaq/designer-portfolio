@@ -225,6 +225,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 import { MenuIcon, XIcon, MailIcon, PhoneIcon, LinkedinIcon, GithubIcon } from 'lucide-vue-next'
+import { icons } from 'lucide-vue-next';
 
 const activeSection = ref('home')
 const isMenuOpen = ref(false)

@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "lucide-vue-next": "^0.453.0",
     "vue": "^3.2.25",
     "vue3-smooth-scroll": "^0.8.1"
   },
