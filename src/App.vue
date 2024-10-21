@@ -279,21 +279,21 @@ const projects = [
   {
     title: 'My Family Shopping List',
     description: 'A responsive and feature-rich shopping list web application built from scratch using React.js and Firebase. This app allows users to easily create and manage shopping lists, with personalized item suggestions and real-time updates.',
-    image: '/assets/project1.png',
+    image: 'https://constguide.app/wp-content/uploads/2024/10/project1.png',
     link: 'https://my-family-shopping-list.pages.dev/app',
     technologies: ['React.js', 'Firebase', 'HTML', 'CSS', 'Cloudflare']
   },
   {
     title: 'Business Upscalers',
     description: 'A professional website developed for Business Upscalers, showcasing services for business growth and development. I designed and implemented a custom WordPress theme from the ground up, focusing on user experience and responsive design.',
-    image: '/assets/project2.png',
+    image: 'https://constguide.app/wp-content/uploads/2024/10/project2.png',
     link: 'https://businessupscalers.com/',
     technologies: ['WordPress', 'HTML', 'CSS', 'jQuery', 'SEO Optimisation']
   },
   {
     title: 'Affordable Junk Removal Akron',
     description: 'Developed a clean and efficient website for Affordable Junk Removal Akron, focusing on fast load times and an intuitive user interface. I integrated CDN for optimised delivery, implemented lazy loading for images, and ensured robust security protocols.',
-    image: '/assets/project3.png',
+    image: 'https://constguide.app/wp-content/uploads/2024/10/project3.png',
     link: 'https://www.affordablejunkremovalakron.com/',
     technologies: ['WordPress', 'Cloudflare', 'SSL', 'HTML', 'CSS', 'jQuery']
   }
