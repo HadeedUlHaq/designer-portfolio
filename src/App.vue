@@ -71,7 +71,7 @@
               Software Engineer | Automation Testing Specialist
             </h2>
             <p class="text-gray-400 mb-8 text-base sm:text-lg">
-              I am a dedicated and passionate software engineer with specialized expertise in automation testing. Proficient in Cypress, I focus on ensuring software applications perform seamlessly with robust and efficient test automation solutions.
+              I am a dedicated and passionate software engineer with specialised expertise in automation testing. Proficient in Cypress, I focus on ensuring software applications perform seamlessly with robust and efficient test automation solutions.
             </p>
             <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <button
@@ -100,10 +100,10 @@
               :key="job.title"
               class="bg-zinc-800 rounded-lg p-6 hover:bg-zinc-700 transition-colors relative overflow-hidden"
             >
-              <div 
-                class="absolute inset-0 opacity-10 bg-gradient-to-br from-primary to-primary-dark"
-                :style="`background-image: url('/job-bg-${index + 1}.jpg')`"
-              ></div>
+              <img src="./assets/2.png"
+                class="absolute inset-0 w-full h-full object-cover opacity-10"
+                sizes="(min-width: 768px) 50vw, 100vw"
+              />
               <div class="relative z-10">
                 <h3 class="text-lg sm:text-xl font-semibold mb-2">{{ job.title }}</h3>
                 <p class="text-gray-400 mb-4">{{ job.company }} | {{ job.location }}</p>
@@ -242,6 +242,7 @@ const jobs = [
       'Integrated Cypress testing into the CI/CD pipeline',
       'Implemented performance evaluation through JMeter',
     ],
+    
   },
   {
     title: 'Tech Lead',
@@ -249,8 +250,8 @@ const jobs = [
     location: 'Richmond, TX (Remote)',
     responsibilities: [
       'Developed custom WordPress themes from scratch',
-      'Collaborated with SEO and design teams, optimizing workflow',
-      'Optimized website performance using CDN, lazy loading, and Cloudflare',
+      'Collaborated with SEO and design teams, optimising workflow',
+      'Optimised website performance using CDN, lazy loading, and Cloudflare',
     ],
   },
   {
@@ -278,21 +279,21 @@ const projects = [
   {
     title: 'My Family Shopping List',
     description: 'A responsive and feature-rich shopping list web application built from scratch using React.js and Firebase. This app allows users to easily create and manage shopping lists, with personalized item suggestions and real-time updates.',
-    image: '/src/assets/project1.png',
+    image: '/assets/project1.png',
     link: 'https://my-family-shopping-list.pages.dev/app',
     technologies: ['React.js', 'Firebase', 'HTML', 'CSS', 'Cloudflare']
   },
   {
     title: 'Business Upscalers',
     description: 'A professional website developed for Business Upscalers, showcasing services for business growth and development. I designed and implemented a custom WordPress theme from the ground up, focusing on user experience and responsive design.',
-    image: '/src/assets/project2.png',
+    image: '/assets/project2.png',
     link: 'https://businessupscalers.com/',
-    technologies: ['WordPress', 'HTML', 'CSS', 'jQuery', 'SEO Optimization']
+    technologies: ['WordPress', 'HTML', 'CSS', 'jQuery', 'SEO Optimisation']
   },
   {
     title: 'Affordable Junk Removal Akron',
-    description: 'Developed a clean and efficient website for Affordable Junk Removal Akron, focusing on fast load times and an intuitive user interface. I integrated CDN for optimized delivery, implemented lazy loading for images, and ensured robust security protocols.',
-    image: '/src/assets/project3.png',
+    description: 'Developed a clean and efficient website for Affordable Junk Removal Akron, focusing on fast load times and an intuitive user interface. I integrated CDN for optimised delivery, implemented lazy loading for images, and ensured robust security protocols.',
+    image: '/assets/project3.png',
     link: 'https://www.affordablejunkremovalakron.com/',
     technologies: ['WordPress', 'Cloudflare', 'SSL', 'HTML', 'CSS', 'jQuery']
   }
